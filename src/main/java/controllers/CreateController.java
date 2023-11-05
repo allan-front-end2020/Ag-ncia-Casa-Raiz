@@ -28,7 +28,7 @@ public class CreateController extends HttpServlet {
 	  client.setLogin(req.getParameter("login"));
 	  client.setSenha(req.getParameter("senha"));
 	  client.setEndereco(req.getParameter("endereco"));
-	  client.setTel(req.getParameter("Tel"));
+	  client.setTel(req.getParameter("tel"));
 	  client.setDataNasc(LocalDate.parse(req.getParameter("dataNasc")));
 	  
 	  

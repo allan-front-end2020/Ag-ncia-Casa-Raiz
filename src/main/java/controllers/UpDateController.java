@@ -45,6 +45,9 @@ public class UpDateController extends HttpServlet {
         try {
             Client clients = new Client();
             clients.setId(Integer.parseInt(req.getParameter("id")));
+            
+            
+            
             clients.setNome(req.getParameter("nome"));
             clients.setLogin(req.getParameter("login"));
             clients.setSenha(req.getParameter("senha"));

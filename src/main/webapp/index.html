@@ -3,9 +3,8 @@
 
 <head>
   <meta charset="UTF-8" />
-   <link rel="stylesheet" type="text/css" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./home.css" />
+  <link rel="stylesheet" href="./style.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
@@ -16,8 +15,6 @@
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Casa & <span>Raiz Agência </title>
-
-
 </head>
 
 <body>
@@ -38,11 +35,8 @@
             <a href="./Promocoes/promocoes.html">Promoções</a>
           </div>
           <div class="item">
-            <a href="./Contatos/contatos.html">Contatos</a>
+            <a href="./login/login.html">login</a>
           </div>
-          <div class="item">
-            <a href="./login/login.html">Login</a>
-           
         </div>
         <!-- Button trigger modal -->
         <div class="mobile-toggler d-lg-none">
@@ -110,9 +104,9 @@
         <!-- Inicio slide -->
         <div class="carousel-inner">
           <div class="carousel-item active " >
-            <div >
-              <img src="./img/rio.jpg"  >
-            </div>
+            <video autoplay muded loop >
+              <source src="./img/coverr-airplane-flying-through-clouds-415-1080p_ISfLb6ef.mp4"  >
+            </video>
             <div class="carousel-caption" data-aos="zoom-in">
               <h5 class="animated bounceInRigth">
                 Casa & <span>Raiz Agência</span>
@@ -481,14 +475,14 @@
     AOS.init();
   </script>
   
-    <script>
-		window.addEventListener("scroll", function() {
+  <script>
+	  
+	  
+	  window.addEventListener("scroll", function() {
     let header = document.querySelector('#header')
     header.classList.toggle('rolagem',window.scrollY > 100 )
 })
-    
   </script>
-  
 </body>
 
 </html>
