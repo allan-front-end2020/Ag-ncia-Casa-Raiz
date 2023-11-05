@@ -4,6 +4,13 @@
 
 Este projeto é uma aplicação web que permite a uma agência de viagem gerenciar clientes. Ele oferece operações CRUD (Create, Read, Update, Delete) para manter registros de clientes.
 
+## Video Tutorial
+
+https://www.youtube.com/watch?v=Xwy4S6134BM
+
+
+
+
 ## Tecnologias Utilizadas
 
 - Frontend: HTML, CSS, JavaScript
